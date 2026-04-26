@@ -1,4 +1,4 @@
-class universities:
+class Universities:
     def __init__(self, fillial):
         self.fillial = fillial
     
