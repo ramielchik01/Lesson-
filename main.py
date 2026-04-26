@@ -5,4 +5,4 @@ class Universities:
     def nameOfFillials(self, fillial):
         return f'there are names: {self.fillial}'
 univer1 = ("MGU")
-print(univer1.nameof)
+print(univer1.nameofFillials)
