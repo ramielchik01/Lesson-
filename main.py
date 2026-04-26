@@ -13,10 +13,10 @@ class Bank:
         self.cardNumber = cardNumber
         self.__cash = cash      
     def user(self):
-        return f'card number is {self.cardNumber} and cash is {self.cash}' 
+        return f'card number is {self.cardNumber} and cash is {self.__cash}' 
     def check(self):
-        if self.cash >= 0:
-            print(f'your cash is {self.cash} you can buy everything')
+        if self.__cash >= 0:
+            print(f'your cash is {self.__cash} you can buy everything')
         else:
             print("you do not have enough money")
 user1bank = Bank(3533465235, 1000)
